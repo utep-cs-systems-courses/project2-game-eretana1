@@ -21,6 +21,6 @@ clean: $^
 
 buzzer.c: buzzer.h
 led.c: led.h
-switches.c: switches.h
+switches.c: switches.h led.h
 stateMachines.c: stateMachines.h led.h
-wdInterruptHandler.c: stateMachines.h
+wdInterruptHandler.c: stateMachines.h switches.h buzzer.h led.h
