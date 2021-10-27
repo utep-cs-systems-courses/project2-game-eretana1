@@ -7,3 +7,9 @@ void led_init()
   P1OUT &= ~LED_GREEN;      // Turn off green LED
   P1OUT |= LED_RED;         // Turn on red LED
 }
+
+void led_off()
+{
+  P1OUT &= ~LED_GREEN;
+  P1OUT &= ~LED_RED;
+}
