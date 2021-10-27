@@ -23,5 +23,5 @@ Switch S4   | Reset button for any switch. (Disables buzzer and turns off LEDs).
 
 ## How to Use
 
-The Makefile in this direcory contains rules to run the Makefile in the project directory. Use **make** in this directory to build the project and timer library. Once the programs are built, you can load the program onto the MSP430 by changing into the corresponding src directory and using **make load** or **make load-s**.
+The Makefile in this directory contains rules to run the Makefile in the project directory. Use **make** in this directory to build the project and timer library. Once the programs are built, you can load the program onto the MSP430 by changing into the corresponding src directory and using **make load** or **make load-s**.
 
