@@ -5,7 +5,7 @@
 // global states to control blinking
 int intensity_state = 0;
 int fast_state = 0;
-int blink_state = 0;
+int blink_state = 1;
 
 // State that blinks the LED every 125/250 == half a second
 char on_off_state(int blink_count)
